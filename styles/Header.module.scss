@@ -1,25 +1,29 @@
-.footer {
+.header {
   width: 100%;
   height: 100px;
-  border-top: 1px solid #eaeaea;
+  border-bottom: 1px solid #eaeaea;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.footer img {
-  margin-left: 0.5rem;
+.header img {
+  position: absolute;
+  left: 0;
+  margin-left: 2rem;
+  height: 3em;
+  align-items: left;
 }
 
-.footer a {
+.header a {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: 50px;
 }
 
-.logofooter {
-  height: 2em;
+
+.logoheader {
+  height: 1em;
 }
 
 @media (max-width: 600px) {
