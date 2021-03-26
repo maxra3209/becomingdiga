@@ -1,6 +1,5 @@
-import styles from '../styles/about.module.css'
+import styles from '../styles/about.module.scss'
 import { Button } from 'carbon-components-react';
-import 'carbon-components/scss/globals/scss/styles.scss';
 
 function About() {
   return <div className={styles.container}>
