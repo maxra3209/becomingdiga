@@ -8,13 +8,30 @@ function MyApp({ Component, pageProps }) {
 <Component {...pageProps} />
 <footer className={styles.footer}>
   <a
-    href="https://www.rank.health/imprint"
+    href="https://www.rank.health/"
     target="_blank"
     rel="noopener noreferrer"
   >
     With love 🖤{' '}
     <img src="/Logo_full_black no background.png" alt="rank.health Logo" className={styles.logo} />
   </a>
+
+  <a
+    href="https://www.rank.health/imprint"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+      Imprint
+  </a>
+
+  <a
+    href="https://www.rank.health/data-privacy"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+      Data Privacy
+  </a>
+
 </footer>
 </div>
 
