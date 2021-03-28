@@ -91,11 +91,11 @@ function MyApp({ Component, pageProps }) {
 
 
 <footer className={styles.footer}>
-  <p>with 🖤 by © rank.health{' '}
+  <p>With 🖤 by © rank.health{' '}
   <img src="/Logo_plain_black no background.png" alt="rank.health Logo" className={styles.logofooter} />
   </p>
 
-  <p>2020-2021 all rights reserved</p>
+  <p>2020-2021 All rights reserved</p>
 
   <a
     href="https://www.rank.health/imprint"
