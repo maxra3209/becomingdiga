@@ -1,6 +1,7 @@
 import '../styles/globals.scss'
 import 'carbon-components/scss/globals/scss/styles.scss';
 import styles from '../styles/Footer.module.scss'
+import style from '../styles/Header.module.scss'
 
 import { HeaderContainer } from 'carbon-components-react';
 import {
@@ -49,18 +50,19 @@ function MyApp({ Component, pageProps }) {
             onClick={onClickSideNavExpand}
             isActive={isSideNavExpanded}
           />
-          <HeaderName href="#" prefix="Becoming DiGA">
+          <img src="/Logo_plain_white no background.png" alt="rank.health Logo" className={style.logoheader} />
+          <HeaderName href="#" prefix="">
             Becoming DiGA
           </HeaderName>
           <HeaderNavigation aria-label="Becoming DiGA">
-            <HeaderMenuItem isCurrentPage href="#">Link 1</HeaderMenuItem>
-            <HeaderMenuItem href="#">Link 2</HeaderMenuItem>
-            <HeaderMenuItem href="#">Link 3</HeaderMenuItem>
-            <HeaderMenu aria-label="Link 4" menuLinkName="Link 4">
+            {/* }<HeaderMenuItem isCurrentPage href="#">Link 1</HeaderMenuItem> */}
+            <HeaderMenuItem href="#">About this project</HeaderMenuItem>
+            <HeaderMenu aria-label="Link 4" menuLinkName="Templates">
               <HeaderMenuItem href="#">Sub-link 1</HeaderMenuItem>
               <HeaderMenuItem href="#">Sub-link 2</HeaderMenuItem>
               <HeaderMenuItem href="#">Sub-link 3</HeaderMenuItem>
             </HeaderMenu>
+            <HeaderMenuItem href="https://www.rank.health/contact">Reach out</HeaderMenuItem>
           </HeaderNavigation>
           <SideNav
             aria-label="Side navigation"
@@ -89,14 +91,11 @@ function MyApp({ Component, pageProps }) {
 
 
 <footer className={styles.footer}>
-  <a
-    href="https://www.rank.health/"
-    target="_blank"
-    rel="noopener noreferrer"
-  >
-    With love 🖤{' '}
-    <img src="/Logo_full_black no background.png" alt="rank.health Logo" className={styles.logofooter} />
-  </a>
+  <p>with 🖤 by © rank.health{' '}
+  <img src="/Logo_plain_black no background.png" alt="rank.health Logo" className={styles.logofooter} />
+  </p>
+
+  <p>2020-2021 all rights reserved</p>
 
   <a
     href="https://www.rank.health/imprint"

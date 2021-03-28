@@ -11,11 +11,29 @@
   margin-left: 0.5rem;
 }
 
-.footer a {
+.footer p {
+  color: #000000;
+  font-family: BlinkMacSystemFont, sans-serif;
+  font-size: small;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-left: 50px;
+}
+
+.footer a {
+  color: #000000;
+  font-family: BlinkMacSystemFont, sans-serif;
+  font-size: small;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 50px;
+}
+
+.footer a:hover,
+.footer a:active {
+  text-decoration: underline;
 }
 
 .logofooter {
