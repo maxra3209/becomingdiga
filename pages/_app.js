@@ -62,7 +62,8 @@ function MyApp({ Component, pageProps }) {
               <HeaderMenuItem href="#">Sub-link 2</HeaderMenuItem>
               <HeaderMenuItem href="#">Sub-link 3</HeaderMenuItem>
             </HeaderMenu>
-            <HeaderMenuItem href="https://www.rank.health/contact">Reach out</HeaderMenuItem>
+            <HeaderMenuItem href="https://www.rank.health/contact" target="_blank"
+            rel="noopener noreferrer">Reach out</HeaderMenuItem>
           </HeaderNavigation>
           <SideNav
             aria-label="Side navigation"
@@ -102,7 +103,7 @@ function MyApp({ Component, pageProps }) {
     target="_blank"
     rel="noopener noreferrer"
   >
-      Imprint
+  Imprint
   </a>
 
   <a
@@ -110,7 +111,14 @@ function MyApp({ Component, pageProps }) {
     target="_blank"
     rel="noopener noreferrer"
   >
-      Data Privacy
+  Data Privacy
+  </a>
+
+  <a
+  href="https://www.rank.health/cookies"
+  target="_blank"
+  rel="noopener noreferrer">
+  No cookies for you 🍪
   </a>
 
 </footer>
