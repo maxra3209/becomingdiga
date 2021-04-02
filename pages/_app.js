@@ -23,14 +23,14 @@ export default function MyApp({ Component, pageProps }) {
       render={ ({ isSideNavExpanded, onClickSideNavExpand }) => (
         <Header aria-label="Becoming DiGA">
           <img src="/Logo_plain_white no background.png" alt="rank.health Logo" className={style.logoheader} />
-          <HeaderName href="#" prefix="">
+          <HeaderName href="/" prefix="">
             Becoming DiGA
           </HeaderName>
 
           <HeaderGlobalBar>
             <HeaderNavigation aria-label="Becoming DiGA">
               {/* maybe needed for later: <HeaderMenuItem isCurrentPage href="#">Link 1</HeaderMenuItem> , also isSelected for switcher */}
-              <HeaderMenuItem href="#">About this project</HeaderMenuItem>
+              <HeaderMenuItem href="/about">About this project</HeaderMenuItem>
               <HeaderMenu aria-label="Link 4" menuLinkName="Templates">
                 <HeaderMenuItem href="#">Sub-link 1</HeaderMenuItem>
                 <HeaderMenuItem href="#">Sub-link 2</HeaderMenuItem>
@@ -47,7 +47,7 @@ export default function MyApp({ Component, pageProps }) {
 
             <HeaderPanel aria-label="Header Panel" expanded={isSideNavExpanded}>
               <Switcher aria-label="Switcher Container">
-                <SwitcherItem aria-label="Link 1" href="#">
+                <SwitcherItem aria-label="Link 1" href="/about">
                   About
                 </SwitcherItem>
                 <SwitcherItem aria-label="Link 2" href="#">
