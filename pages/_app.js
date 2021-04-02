@@ -29,7 +29,7 @@ export default function MyApp({ Component, pageProps }) {
 
           <HeaderGlobalBar>
             <HeaderNavigation aria-label="Becoming DiGA">
-              {/* maybe needed for later: <HeaderMenuItem isCurrentPage href="#">Link 1</HeaderMenuItem> */}
+              {/* maybe needed for later: <HeaderMenuItem isCurrentPage href="#">Link 1</HeaderMenuItem> , also isSelected for switcher */}
               <HeaderMenuItem href="#">About this project</HeaderMenuItem>
               <HeaderMenu aria-label="Link 4" menuLinkName="Templates">
                 <HeaderMenuItem href="#">Sub-link 1</HeaderMenuItem>
@@ -47,25 +47,25 @@ export default function MyApp({ Component, pageProps }) {
 
             <HeaderPanel aria-label="Header Panel" expanded={isSideNavExpanded}>
               <Switcher aria-label="Switcher Container">
-                <SwitcherItem isSelected aria-label="Link 1" href="#">
-                  Link 1
+                <SwitcherItem aria-label="Link 1" href="#">
+                  About
+                </SwitcherItem>
+                <SwitcherItem aria-label="Link 2" href="#">
+                  Link1
                 </SwitcherItem>
                 <SwitcherDivider />
-                <SwitcherItem href="#" aria-label="Link 2">
+                <SwitcherItem href="#" aria-label="Link 3">
                   Link 2
                 </SwitcherItem>
-                <SwitcherItem href="#" aria-label="Link 3">
+                <SwitcherItem href="#" aria-label="Link 4">
                   Link 3
                 </SwitcherItem>
-                <SwitcherItem href="#" aria-label="Link 4">
+                <SwitcherItem href="#" aria-label="Link 5">
                   Link 4
                 </SwitcherItem>
-                <SwitcherItem href="#" aria-label="Link 5">
-                  Link 5
-                </SwitcherItem>
                 <SwitcherDivider />
-                <SwitcherItem href="#" aria-label="Link 6">
-                  Link 6
+                <SwitcherItem href="https://www.rank.health/contact" aria-label="Link 6">
+                  Reach out
                 </SwitcherItem>
               </Switcher>
             </HeaderPanel>
