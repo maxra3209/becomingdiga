@@ -4,7 +4,7 @@ import { Button } from 'carbon-components-react';
 function About() {
   return <div className={styles.container}>
   <Button>
-    DEMO TITLE BOSS ASS WITCHES
+    DEMO TITLE BOSS NOT
   </Button>
 </div>
 }
