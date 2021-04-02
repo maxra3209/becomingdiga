@@ -8,6 +8,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "@carbon/icons-react": "^10.29.0",
     "carbon-components": "^10.31.0",
     "carbon-components-react": "^7.31.0",
     "carbon-icons": "^7.0.7",

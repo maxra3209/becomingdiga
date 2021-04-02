@@ -21,7 +21,7 @@ import {
   // Temporarily commented these out until they're needed again
   // SideNavHeader,
   // SideNavDetails,
-  // SideNavSwitcher,
+  SideNavSwitcher,
   SideNavDivider,
   SideNavItems,
   SideNavLink,
@@ -42,50 +42,54 @@ function MyApp({ Component, pageProps }) {
   return <div>
   export const HeaderBaseWNavigation = withReadme(readme, () => (
     <HeaderContainer
-      render={({ isSideNavExpanded, onClickSideNavExpand }) => (
+      render={ ({ isSideNavExpanded, onClickSideNavExpand }) => (
         <Header aria-label="Becoming DiGA">
-          <SkipToContent />
-          <HeaderMenuButton
-            aria-label="Open menu"
-            onClick={onClickSideNavExpand}
-            isActive={isSideNavExpanded}
-          />
           <img src="/Logo_plain_white no background.png" alt="rank.health Logo" className={style.logoheader} />
           <HeaderName href="#" prefix="">
             Becoming DiGA
           </HeaderName>
-          <HeaderNavigation aria-label="Becoming DiGA">
-            {/* }<HeaderMenuItem isCurrentPage href="#">Link 1</HeaderMenuItem> */}
-            <HeaderMenuItem href="#">About this project</HeaderMenuItem>
-            <HeaderMenu aria-label="Link 4" menuLinkName="Templates">
-              <HeaderMenuItem href="#">Sub-link 1</HeaderMenuItem>
-              <HeaderMenuItem href="#">Sub-link 2</HeaderMenuItem>
-              <HeaderMenuItem href="#">Sub-link 3</HeaderMenuItem>
-            </HeaderMenu>
-            <HeaderMenuItem href="https://www.rank.health/contact" target="_blank"
-            rel="noopener noreferrer">Reach out</HeaderMenuItem>
-          </HeaderNavigation>
-          <SideNav
-            aria-label="Side navigation"
-            expanded={isSideNavExpanded}
-            isPersistent={false}>
-            <SideNavItems>
-              <HeaderSideNavItems>
-                <HeaderMenuItem href="#">Link 1</HeaderMenuItem>
-                <HeaderMenuItem href="#">Link 2</HeaderMenuItem>
-                <HeaderMenuItem href="#">Link 3</HeaderMenuItem>
-                <HeaderMenu aria-label="Link 4" menuLinkName="Link 4">
+
+          <HeaderGlobalBar>
+              <HeaderNavigation aria-label="Becoming DiGA">
+              {/* maybe needed for later: <HeaderMenuItem isCurrentPage href="#">Link 1</HeaderMenuItem> */}
+                <HeaderMenuItem href="#">About this project</HeaderMenuItem>
+                <HeaderMenu aria-label="Link 4" menuLinkName="Templates">
                   <HeaderMenuItem href="#">Sub-link 1</HeaderMenuItem>
                   <HeaderMenuItem href="#">Sub-link 2</HeaderMenuItem>
                   <HeaderMenuItem href="#">Sub-link 3</HeaderMenuItem>
-                </HeaderMenu>
-              </HeaderSideNavItems>
-            </SideNavItems>
-          </SideNav>
+                  </HeaderMenu>
+                  <HeaderMenuItem href="https://www.rank.health/contact" target="_blank"
+              rel="noopener noreferrer">Reach out</HeaderMenuItem>
+              </HeaderNavigation>
+              <HeaderMenuButton
+                aria-label="Open menu"
+                onClick={onClickSideNavExpand}
+                isActive={isSideNavExpanded}
+              />
+
+              <SideNav
+                aria-label="Side navigation"
+                expanded={isSideNavExpanded}
+                isPersistent={false}>
+                <SideNavItems>
+                  <HeaderSideNavItems>
+                    <HeaderMenuItem href="#">About this project</HeaderMenuItem>
+                    <HeaderMenu aria-label="Link 4" menuLinkName="Templates">
+                      <HeaderMenuItem href="#">Sub-link 1</HeaderMenuItem>
+                      <HeaderMenuItem href="#">Sub-link 2</HeaderMenuItem>
+                      <HeaderMenuItem href="#">Sub-link 3</HeaderMenuItem>
+                    </HeaderMenu>
+                    <HeaderMenuItem href="https://www.rank.health/contact" target="_blank"
+                    rel="noopener noreferrer">Reach out</HeaderMenuItem>
+                  </HeaderSideNavItems>
+                </SideNavItems>
+              </SideNav>
+
+            </HeaderGlobalBar>
         </Header>
       )}
     />
-  ));
+  )};
 
 
 <Component {...pageProps} />
