@@ -106,6 +106,22 @@ export default function MyApp({ Component, pageProps }) {
       No cookies for you 🍪
       </a>
 
+      <a
+        href="https://github.com/maxra3209/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+      <img src="/Github.png" alt="Github Logo" className={styles.logofooter} />
+      </a>
+
+      <a
+        href="https://www.linkedin.com/in/max-rank/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+      <img src="/Linkedin.png" alt="Linkedin Logo" className={styles.logofooter} />
+      </a>
+
     </footer>
 </>
 }
