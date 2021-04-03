@@ -1,4 +1,4 @@
-import styles from '../styles/About.module.scss'
+import styles from '../styles/about.module.scss'
 import { Button } from 'carbon-components-react';
 
 function About() {

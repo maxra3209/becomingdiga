@@ -31,8 +31,8 @@ export default function MyApp({ Component, pageProps }) {
             <HeaderNavigation aria-label="Becoming DiGA">
               {/* maybe needed for later: <HeaderMenuItem isCurrentPage href="#">Link 1</HeaderMenuItem> , also isSelected for switcher */}
               <HeaderMenuItem href="/about">About this project</HeaderMenuItem>
-              <HeaderMenu aria-label="Link 4" menuLinkName="Templates">
-                <HeaderMenuItem href="#">Sub-link 1</HeaderMenuItem>
+              <HeaderMenu aria-label="Link 4" menuLinkName="Resources">
+                <HeaderMenuItem href="/resources/tools">Tools</HeaderMenuItem>
                 <HeaderMenuItem href="#">Sub-link 2</HeaderMenuItem>
                 <HeaderMenuItem href="#">Sub-link 3</HeaderMenuItem>
               </HeaderMenu>

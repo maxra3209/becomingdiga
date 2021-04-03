@@ -11,7 +11,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          BECOMING <a href="https://rank.health">DiGA</a>
+          BECOMING <a>DiGA</a>
         </h1>
 
         <p className={styles.description}>
@@ -19,31 +19,43 @@ export default function Home() {
         </p>
 
         <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
-
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
+          <a
+            href="https://nextjs.org/docs"
+            target="_blank"
+            rel="noopener noreferrer"
+            className={styles.card}>
+            <h3>1. What is DVG? &rarr;</h3>
+            <p>Learn about benefits and costs of becoming a DiGA.</p>
           </a>
 
           <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
+            href="https://www.notion.so/Steps-to-becoming-listed-d009d0a92a744a298417a4140e74112a"
+            target="_blank"
+            rel="noopener noreferrer"
+            className={styles.card}>
+            <h3>2. Steps to become DiGA &rarr;</h3>
+            <p>What do you have to do to become DVG compliant?</p>
           </a>
 
           <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            href="https://www.notion.so/771d29a875e540deb7f1be572c59a170?v=6b2a2c21dd97483495befd9a553b2e33"
+            target="_blank"
+            rel="noopener noreferrer"
             className={styles.card}
           >
-            <h3>Deploy &rarr;</h3>
+            <h3>3. Requirements list &rarr;</h3>
+            <p>An interpretation of BfArM's requirements with helpful links.</p>
+          </a>
+
+          <a
+            href="https://rank.health/contact"
+            target="_blank"
+            rel="noopener noreferrer"
+            className={styles.card}
+          >
+            <h3>4. Still questions left? &rarr;</h3>
             <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
+              Feel free to shoot me a text in case any questions remain open.
             </p>
           </a>
         </div>
