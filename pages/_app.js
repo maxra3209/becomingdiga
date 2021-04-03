@@ -33,7 +33,7 @@ export default function MyApp({ Component, pageProps }) {
               <HeaderMenuItem href="/about">About this project</HeaderMenuItem>
               <HeaderMenu aria-label="Link 4" menuLinkName="Resources">
                 <HeaderMenuItem href="/resources/tools">Tools</HeaderMenuItem>
-                <HeaderMenuItem href="#">Sub-link 2</HeaderMenuItem>
+                <HeaderMenuItem href="/resources/flows">Flows</HeaderMenuItem>
                 <HeaderMenuItem href="#">Sub-link 3</HeaderMenuItem>
               </HeaderMenu>
               <HeaderMenuItem href="https://www.rank.health/contact" target="_blank"
