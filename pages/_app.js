@@ -34,7 +34,10 @@ export default function MyApp({ Component, pageProps }) {
               <HeaderMenu aria-label="Link 4" menuLinkName="Resources">
                 <HeaderMenuItem href="/resources/tools">Tools</HeaderMenuItem>
                 <HeaderMenuItem href="/resources/flows">Flows</HeaderMenuItem>
-                <HeaderMenuItem href="#">Sub-link 3</HeaderMenuItem>
+                <HeaderMenuItem href="https://www.notion.so/Interoperability-4b6cb83365fc4f2a9d1499fc90159da0" target="_blank"
+                                rel="noopener noreferrer">Interoperability</HeaderMenuItem>
+                <HeaderMenuItem href="https://www.notion.so/Integrate-w-Insurances-4c00f1628f8543819bd8aa198b2a82d3" target="_blank"
+                                rel="noopener noreferrer">Integrate w Insurnaces</HeaderMenuItem>
               </HeaderMenu>
               <HeaderMenuItem href="https://www.rank.health/contact" target="_blank"
                               rel="noopener noreferrer">Reach out</HeaderMenuItem>
