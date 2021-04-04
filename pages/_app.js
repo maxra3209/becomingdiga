@@ -32,12 +32,16 @@ export default function MyApp({ Component, pageProps }) {
               {/* maybe needed for later: <HeaderMenuItem isCurrentPage href="#">Link 1</HeaderMenuItem> , also isSelected for switcher */}
               <HeaderMenuItem href="/about">About this project</HeaderMenuItem>
               <HeaderMenu aria-label="Link 4" menuLinkName="Resources">
-                <HeaderMenuItem href="/resources/tools">Tools</HeaderMenuItem>
-                <HeaderMenuItem href="/resources/flows">Flows</HeaderMenuItem>
+                <HeaderMenuItem href="https://www.notion.so/Schutzbedarfsanalyse-855b66449afe4fe9aa25578e0549bf8e" target="_blank"
+                                rel="noopener noreferrer">Schutzbedarfsanalyse</HeaderMenuItem>
+                <HeaderMenuItem href="https://www.notion.so/ISMS-9447d076fc364dd4bae4fb5190b716cd" target="_blank"
+                                rel="noopener noreferrer">ISMS</HeaderMenuItem>
+                <HeaderMenuItem href="/resources/tools">Non-US-Provider Tools</HeaderMenuItem>
+                <HeaderMenuItem href="/resources/flows">App Start & Auth Flows</HeaderMenuItem>
                 <HeaderMenuItem href="https://www.notion.so/Interoperability-4b6cb83365fc4f2a9d1499fc90159da0" target="_blank"
                                 rel="noopener noreferrer">Interoperability</HeaderMenuItem>
                 <HeaderMenuItem href="https://www.notion.so/Integrate-w-Insurances-4c00f1628f8543819bd8aa198b2a82d3" target="_blank"
-                                rel="noopener noreferrer">Integrate w Insurnaces</HeaderMenuItem>
+                                rel="noopener noreferrer">Integrate w Insurances</HeaderMenuItem>
               </HeaderMenu>
               <HeaderMenuItem href="https://www.rank.health/contact" target="_blank"
                               rel="noopener noreferrer">Reach out</HeaderMenuItem>
