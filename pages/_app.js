@@ -1,3 +1,4 @@
+import Head from 'next/head'
 import '../styles/globals.scss'
 import 'carbon-components/scss/globals/scss/styles.scss';
 import styles from '../styles/Footer.module.scss'
@@ -19,6 +20,10 @@ import {
 
 export default function MyApp({ Component, pageProps }) {
   return <>
+  <Head>
+    <title>Becoming DiGA</title>
+    <link rel="icon" href="/Logo_plain_black no background.png" />
+  </Head>
     <HeaderContainer
       render={ ({ isSideNavExpanded, onClickSideNavExpand }) => (
         <Header aria-label="Becoming DiGA">
