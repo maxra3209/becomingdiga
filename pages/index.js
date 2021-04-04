@@ -14,9 +14,7 @@ export default function Home() {
 
         <div className={styles.grid}>
           <a
-            href="https://nextjs.org/docs"
-            target="_blank"
-            rel="noopener noreferrer"
+            href="/introduction"
             className={styles.card}>
             <h3>1. What is DVG? &rarr;</h3>
             <p>Learn about benefits and costs of becoming a DiGA.</p>
