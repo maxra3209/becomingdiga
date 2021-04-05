@@ -48,6 +48,8 @@ export default function MyApp({ Component, pageProps }) {
                 <HeaderMenuItem href="https://www.notion.so/Integrate-w-Insurances-4c00f1628f8543819bd8aa198b2a82d3" target="_blank"
                                 rel="noopener noreferrer">Integrate w Insurances</HeaderMenuItem>
               </HeaderMenu>
+              <HeaderMenuItem href="https://www.rank.health/faq" target="_blank"
+                              rel="noopener noreferrer">FAQ</HeaderMenuItem>
               <HeaderMenuItem href="https://www.rank.health/contact" target="_blank"
                               rel="noopener noreferrer">Reach out</HeaderMenuItem>
             </HeaderNavigation>
@@ -59,24 +61,39 @@ export default function MyApp({ Component, pageProps }) {
 
             <HeaderPanel aria-label="Header Panel" expanded={isSideNavExpanded}>
               <Switcher aria-label="Switcher Container">
-                <SwitcherItem aria-label="Link 1" href="/about">
-                  About
-                </SwitcherItem>
-                <SwitcherItem aria-label="Link 2" href="#">
-                  Link1
-                </SwitcherItem>
+                <SwitcherItem aria-label="Link 1" href="/about">About</SwitcherItem>
                 <SwitcherDivider />
-                <SwitcherItem href="#" aria-label="Link 3">
-                  Link 2
-                </SwitcherItem>
-                <SwitcherItem href="#" aria-label="Link 4">
-                  Link 3
-                </SwitcherItem>
-                <SwitcherItem href="#" aria-label="Link 5">
-                  Link 4
-                </SwitcherItem>
+                  <SwitcherItem aria-label="Link 2"
+                                href="https://www.notion.so/Schutzbedarfsanalyse-855b66449afe4fe9aa25578e0549bf8e"
+                                target="_blank"
+                                rel="noopener noreferrer">Schutzbedarfsanalyse
+                  </SwitcherItem>
+                  <SwitcherItem aria-label="Link 3"
+                                href="https://www.notion.so/ISMS-9447d076fc364dd4bae4fb5190b716cd"
+                                target="_blank"
+                                rel="noopener noreferrer">ISMS
+                  </SwitcherItem>
+                  <SwitcherItem aria-label="Link 4"
+                                href="/resources/tools">Non-US-Provider Tools
+                  </SwitcherItem>
+                  <SwitcherItem aria-label="Link 5"
+                                href="/resources/flows">App Start & Auth Flows
+                  </SwitcherItem>
+                  <SwitcherItem aria-label="Link 6"
+                                href="https://www.notion.so/Interoperability-4b6cb83365fc4f2a9d1499fc90159da0"
+                                target="_blank"
+                                rel="noopener noreferrer">Interoperability
+                  </SwitcherItem>
+                  <SwitcherItem aria-label="Link 7"
+                                href="https://www.notion.so/Integrate-w-Insurances-4c00f1628f8543819bd8aa198b2a82d3"
+                                target="_blank"
+                                rel="noopener noreferrer">Integrate w Insurances
+                  </SwitcherItem>
                 <SwitcherDivider />
-                <SwitcherItem href="https://www.rank.health/contact" aria-label="Link 6">
+                <SwitcherItem href="https://www.rank.health/faq" aria-label="Link 8">
+                  FAQ
+                </SwitcherItem>
+                <SwitcherItem href="https://www.rank.health/contact" aria-label="Link 9">
                   Reach out
                 </SwitcherItem>
               </Switcher>
