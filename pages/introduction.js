@@ -1,4 +1,4 @@
-import styles from '../styles/introduction.module.scss'
+import styles from '../styles/Introduction.module.scss'
 import { Button } from 'carbon-components-react';
 import Link from 'next/link'
 
