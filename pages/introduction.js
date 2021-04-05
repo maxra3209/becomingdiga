@@ -12,10 +12,10 @@ function About() {
 
     <div className={styles.container}>
       <p className={styles.description}>
-        Through DVG the German lawmaker gives you a chance to make your product prescribable by doctors like any other medication and be reimbursed
+        Through DVG the German lawmaker gives you a chance to make your product prescribable by doctors and be reimbursed
         by public health insurances. That's great news 🎉. For the first time many health tech startups got the chance to build their business
         around a working business model. Because let's be honest: Nobody pays for health apps and selective contracts with health insurances rarely ever
-        return enough revenue because insurances' use their bargaining power pretty harsh more often than not.
+        return enough revenue.
       </p>
       <p className={styles.description}>
         Aye, so much for the good part. Because becoming a digital health application (DiGA) also comes at a price. High regulatory demands from many institutions will
