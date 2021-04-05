@@ -66,28 +66,28 @@ export default function MyApp({ Component, pageProps }) {
                   <SwitcherItem aria-label="Link 2"
                                 href="https://www.notion.so/Schutzbedarfsanalyse-855b66449afe4fe9aa25578e0549bf8e"
                                 target="_blank"
-                                rel="noopener noreferrer">Schutzbedarfsanalyse
+                                rel="noopener noreferrer"> Schutzbedarfsanalyse
                   </SwitcherItem>
                   <SwitcherItem aria-label="Link 3"
                                 href="https://www.notion.so/ISMS-9447d076fc364dd4bae4fb5190b716cd"
                                 target="_blank"
-                                rel="noopener noreferrer">ISMS
+                                rel="noopener noreferrer"> ISMS
                   </SwitcherItem>
                   <SwitcherItem aria-label="Link 4"
-                                href="/resources/tools">Non-US-Provider Tools
+                                href="/resources/tools"> Non-US-Provider Tools
                   </SwitcherItem>
                   <SwitcherItem aria-label="Link 5"
-                                href="/resources/flows">App Start & Auth Flows
+                                href="/resources/flows"> App Start & Auth Flows
                   </SwitcherItem>
                   <SwitcherItem aria-label="Link 6"
                                 href="https://www.notion.so/Interoperability-4b6cb83365fc4f2a9d1499fc90159da0"
                                 target="_blank"
-                                rel="noopener noreferrer">Interoperability
+                                rel="noopener noreferrer"> Interoperability
                   </SwitcherItem>
                   <SwitcherItem aria-label="Link 7"
                                 href="https://www.notion.so/Integrate-w-Insurances-4c00f1628f8543819bd8aa198b2a82d3"
                                 target="_blank"
-                                rel="noopener noreferrer">Integrate w Insurances
+                                rel="noopener noreferrer"> Integrate w Insurances
                   </SwitcherItem>
                 <SwitcherDivider />
                 <SwitcherItem href="https://www.rank.health/faq" aria-label="Link 8">
