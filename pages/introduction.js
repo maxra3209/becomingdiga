@@ -23,7 +23,11 @@ function About() {
         in building a product with great UX and added services that actually helps users.
         <br /><br />
       </p>
-      <p><img src="/DVG and environment.png" alt="DVG and environment" className={styles.image} /></p>
+      </div>
+      <div>
+      <a><img src="/DVG and environment.png" alt="DVG and environment" className={styles.image} /></a>
+      </div>
+      <div className={styles.container}>
       <p className={styles.description}>
         <br /><br />
         Yeh, don't worry. There are more laws which apply to you and more regulation you have to follow. But these four require the largest chunk of work.
