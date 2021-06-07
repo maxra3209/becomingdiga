@@ -10,7 +10,7 @@ function Error({ statusCode }) {
       <img src="/404.gif" alt="Laika in Space" className={styles.img} />
         {statusCode
           ? `Seems like you're lost in ${statusCode}`
-          : 'Seems like you are lost in'}
+          : 'Seems like you are lost in 404'}
       </p>
 
       <div className={styles.space}>
