@@ -107,7 +107,7 @@ export default function MyApp({ Component, pageProps }) {
 
     <footer className={styles.footer}>
       <p>With 🖤 by © rank.health{' '}
-      <img src="/Logo_plain_black no background.png" alt="rank.health Logo" className={styles.logofooter} />
+      <img src="/Logo_plain_black-no-background.svg" alt="rank.health Logo" className={styles.logofooter} />
       </p>
 
       <p>2020-2021 All rights reserved</p>
@@ -140,7 +140,7 @@ export default function MyApp({ Component, pageProps }) {
         target="_blank"
         rel="noopener noreferrer"
       >
-      <img src="/Github.png" alt="Github Logo" className={styles.logofooter} />
+      <img src="/github.svg" alt="Github Logo" className={styles.logofooter} />
       </a>
 
       <a
@@ -148,7 +148,7 @@ export default function MyApp({ Component, pageProps }) {
         target="_blank"
         rel="noopener noreferrer"
       >
-      <img src="/Linkedin.png" alt="Linkedin Logo" className={styles.logofooter} />
+      <img src="/linkedin.svg" alt="Linkedin Logo" className={styles.logofooter} />
       </a>
 
     </footer>
